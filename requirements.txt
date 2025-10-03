@@ -1,13 +1,13 @@
-pandas
-numpy
-matplotlib
-seaborn
-spacy
-contractions
-nltk
-scikit-learn
-wordcloud
-joblib
-tqdm
-streamlit
-scipy
+pandas==2.1.3
+numpy==1.24.3
+matplotlib==3.7.2
+seaborn==0.13.0
+spacy==3.7.2
+contractions==0.1.73
+scikit-learn==1.3.2
+wordcloud==1.9.3
+joblib==1.3.2
+tqdm==4.66.1
+streamlit==1.28.0
+scipy==1.11.3
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
