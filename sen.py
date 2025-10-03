@@ -4,10 +4,17 @@ import re
 import pandas as pd
 import contractions as con
 import spacy
+from spacy.cli import download
 import numpy as np
 
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
 
 # Text cleaning function
 def clean_text(text):
