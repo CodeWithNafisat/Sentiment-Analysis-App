@@ -31,3 +31,7 @@ runs/
 # *.h5
 # *.pkl
 # *.pth
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
